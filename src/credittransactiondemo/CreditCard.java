@@ -1,8 +1,10 @@
 package credittransactiondemo;
 
+import java.util.Date;
+
 public class CreditCard {
+public String cardNo;
 
-    public String cardNo="123 654";
-
-    public static double cardLimit=5000;
+    public  double cardLimit;
+    public static double availableBalance=15000;
 }

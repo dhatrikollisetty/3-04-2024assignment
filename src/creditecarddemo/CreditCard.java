@@ -8,4 +8,6 @@ public class CreditCard {
     public String cvv;
     public String bankName;
     public Date cardExpiry;
+    public  double cardLimit;
+    public static double availableBalance=15000;
 }

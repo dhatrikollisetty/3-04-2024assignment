@@ -16,12 +16,31 @@ public class CardTest {
         user.panNumber="ab2587";
         user.address2=address ;
 
-        CardService cardService=new CardService();
+       /*CardService cardService=new CardService();
         CreditCard cc=cardService.card(user);
         System.out.println("card Name : "+cc.cardHolderName);
         System.out.println("card Number : "+cc.cardNo);
         System.out.println("card Cvv No : "+cc.cvv);
         System.out.println("card ExpiryDtae : "+cc.cardExpiry);
+        System.out.println("card Limit :"+cc.cardLimit);
+*/
+
+
+        Product product=new Product();
+        product.type="jeans";
+        product.brand="blackbeery";
+        product.color="olive";
+        product.size="30";
+       // product.cost=1500;
+
+        ShoppingService ss=new ShoppingService();
+        ss.selectProduct(product);
+
+
+
+
+
+
 
 
 

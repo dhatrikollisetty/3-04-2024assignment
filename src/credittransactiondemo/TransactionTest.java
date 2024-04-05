@@ -7,13 +7,13 @@ public class TransactionTest {
         transactionService.cardTransaction("123 654",1500);
 
         TransactionService transactionService1=new TransactionService();
-        transactionService.cardTransaction("123 654",1500);
+        transactionService.cardTransaction("123 654",700);
 
         TransactionService transactionService2=new TransactionService();
-        transactionService.cardTransaction("123 654",1500);
+        transactionService.cardTransaction("123 654",500);
 
         TransactionService transactionService3=new TransactionService();
-        transactionService.cardTransaction("123 654",1500);
+        transactionService.cardTransaction("123 654",1000);
 
 
         TransactionService ts=new TransactionService();

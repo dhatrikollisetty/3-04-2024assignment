@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a543550-8658-4f4d-a2a9-9e9e2492879d" name="Changes" comment="03/04/2024 assignments2">
-      <change afterPath="$PROJECT_DIR$/src/credittransactiondemo/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/credittransactiondemo/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/credittransactiondemo/TransactionTest.java" afterDir="false" />
+    <list default="true" id="4a543550-8658-4f4d-a2a9-9e9e2492879d" name="Changes" comment="04/04/2024 creditCard transaction">
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/OrderItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/Product1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/ProductSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/ShopDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creditecarddemo/ShoppingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/credittransactiondemo/ShopDemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creditecarddemo/Siri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creditecarddemo/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creditecarddemo/CardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creditecarddemo/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creditecarddemo/CardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creditecarddemo/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creditecarddemo/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/credittransactiondemo/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/credittransactiondemo/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/credittransactiondemo/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/credittransactiondemo/TransactionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +50,7 @@
     "Application.CardTest.executor": "Run",
     "Application.CreateAccountTest.executor": "Run",
     "Application.LoanTest.executor": "Run",
+    "Application.ShopDemoTest.executor": "Run",
     "Application.TransactionTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,7 +61,7 @@
     "onboarding.tips.debug.path": "C:/my projects/junitdemo/assignments/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TransactionTest">
+  <component name="RunManager" selected="Application.ShopDemoTest">
     <configuration name="CardTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creditecarddemo.CardTest" />
       <module name="assignments" />
@@ -90,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creditecarddemo.ShopDemoTest" />
+      <module name="assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creditecarddemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransactionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="credittransactiondemo.TransactionTest" />
       <module name="assignments" />
@@ -105,8 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransactionTest" />
+        <item itemvalue="Application.ShopDemoTest" />
         <item itemvalue="Application.CardTest" />
+        <item itemvalue="Application.TransactionTest" />
         <item itemvalue="Application.LoanTest" />
         <item itemvalue="Application.CreateAccountTest" />
       </list>
@@ -144,14 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712223507188</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="04/04/2024 creditCard transaction">
+      <option name="closed" value="true" />
+      <created>1712248301497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712248301497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03/04/2024 assignment" />
     <MESSAGE value="03/04/2024 assignments" />
     <MESSAGE value="03/04/2024 assignments2" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/04/2024 assignments2" />
+    <MESSAGE value="04/04/2024 creditCard transaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/04/2024 creditCard transaction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
